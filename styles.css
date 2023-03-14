@@ -28,7 +28,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: rgb(233, 231, 231);
   box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
 }
 
@@ -56,9 +56,7 @@ header {
   cursor: pointer;
 }
 
-/* header element ends */
-
-/* product section starts */
+/* product section */
 section {
   padding: 4rem 0 3rem;
 }
@@ -75,4 +73,21 @@ section h2 {
 
 .shop {
   margin-top: 2rem;
+}
+
+/* products */
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+}
+
+.product-box {
+  position: relative;
+}
+
+.product-box:hover {
+  padding: 10px;
+  border: 1px solid #222;
+  transition: 0.4s;
 }
