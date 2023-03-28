@@ -35,3 +35,6 @@ function removeCartItem(event) {
   let buttonClicked = event.target
   buttonClicked.parentElement.remove()
 }
+
+// updateTotal
+function updateTotal() {}
